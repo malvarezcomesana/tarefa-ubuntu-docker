@@ -1,10 +1,22 @@
 # Tarefa: Docker e GitHub
 
-## 1. Crear un novo repositorio público en Git
-1. Inicia sesión en GitHub e crea un novo repositorio chamado "tarefa".
-2. Copia a URL do repositorio.
+Este repositorio, creado por **Martín Álvarez Comesaña**, contén un tutorial que describe o proceso de creación e xestión de contedores utilizando Docker, así como a integración con GitHub. O obxectivo é ofrecer un paso a paso claro e conciso sobre as distintas tarefas que se poden realizar.
 
-## 2. Clonar o repositorio
-1. Abre o terminal e executa o seguinte comando para clonar o repositorio:
+## Contido do Tutorial
+
+1. **Crear un novo repositorio público en Git**
+   - Crea un repositorio chamado "tarefa" en GitHub.
+   - Clona o repositorio no teu equipo local.
+
+2. **Engadir un arquivo `readme2.md`**
+   - Crea un arquivo chamado `readme2.md` no repositorio clonado e engade unha frase á túa elección.
+
+3. **Usar Docker e a imaxe de Ubuntu**
+   - Realiza os seguintes pasos e comandos:
+
+### Pasos e Comandos
+
+#### 1. Descargar e comprobar que unha imaxe está no teu equipo
    ```bash
-   git clone https://github.com/tu-usuario/tarefa.git
+   docker pull ubuntu
+   docker images
