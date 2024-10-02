@@ -43,25 +43,25 @@ docker run -d --name u1 ubuntu sleep 3600
 
 docker exec -it u1 bash
    ```
-#### 4. Comprobar a súa IP e fai ping a google.com
+#### 4. Comprobar a súa IP e facer ping a google.com:
 
-bash
-
+   ```bash
+   - Para ver a ip, podemos tamén utilizar ip addr
 ip addr show
 ping google.com
-
+   ```
 #### 5. Crear un contenedor co nome bono
 
-bash
+   ```bash
 
 docker run -d --name bono ubuntu sleep 3600
 
     Para verificar se podes facer ping entre os contenedores:
-
+   
 bash
 
 docker exec u1 ping bono
-
+   ```
 #### 6. Que pasa co contedor se pechas as terminais?
 
     Se pechas a terminal, o contedor seguirá activo se foi creado en modo background (-d). Comproba con:
