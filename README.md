@@ -27,22 +27,22 @@ Este repositorio, creado por **Martín Álvarez Comesaña**, contén un tutorial
 
 docker run -d ubuntu sleep 3600
 
-    Para comprobar que está arrincado, usa:
+   - Para comprobar que está arrincado, usa:
 
 docker ps -a
    ```
 #### 3. Crear un contenedor co nome u1
 
-bash
+   ```bash
 
 docker run -d --name u1 ubuntu sleep 3600
+   ```
+    - Para acceder a el:
 
-    Para acceder a el:
-
-bash
+   ```bash
 
 docker exec -it u1 bash
-
+   ```
 #### 4. Comprobar a súa IP e fai ping a google.com
 
 bash
