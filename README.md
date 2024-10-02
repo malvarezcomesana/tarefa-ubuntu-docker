@@ -72,42 +72,42 @@ docker exec u1 ping bono
 
 #### 7. Cánta memoria no disco duro ocupaches?
 
-bash
+```bash
 
 docker system df
-
+```
 #### 8. Cánta RAM ocupan os contenedores?
 
-bash
+```bash
 
 docker stats
+```
+#### 9. Cómo fixeches para clonar o repositorio
 
-9. Cómo fixeches para clonar o repositorio
-
-bash
+```bash
 
 git clone https://github.com/tu-usuario/tarefa.git
+```
+#### 10. Cómo engades o arquivo readme2.md
 
-10. Cómo engades o arquivo readme2.md
-
-bash
+```bash
 
 git add readme2.md
+```
+#### 11. Pasos para subir o arquivo que estás editando e readme2.md
 
-11. Pasos para subir o arquivo que estás editando e readme2.md
-
-bash
+```bash
 
 git commit -m "Engadido readme2.md"
 git push origin main
+```
+#### 12. Comprobar diferenzas entre o repositorio local e o remoto
 
-12. Comprobar diferenzas entre o repositorio local e o remoto
-
-bash
+```bash
 
 git fetch
 git diff origin/main
-
-Conclusión
+```
+#### Conclusión
 
 Agora sabes como utilizar Docker e Git para xestionar contedores e repositores. Este tutorial proporciona un marco de referencia para traballar con estas ferramentas de forma efectiva. Se tes dúbidas ou suxestións, non dubides en contactarme.
