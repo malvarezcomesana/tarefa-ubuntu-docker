@@ -30,7 +30,7 @@ docker run -d ubuntu sleep 3600
     Para comprobar que está arrincado, usa:
 
 docker ps -a
-   ``
+   ```
 #### 3. Crear un contenedor co nome u1
 
 bash
